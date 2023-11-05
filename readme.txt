@@ -13,3 +13,9 @@ conflict and push it into GitHub.
 8. In GitHub, create a pull request to merge ‘feature-z’ branch into the master branch.
 Resolve the conflict and complete the merge.
 9. Commit your changes and push the master branch into GitHub.
+
+
+1. Create a branch named ‘unit-test’ and checkout the newly created branch.
+2. In your chosen Unit testing framework, write five test cases for your applications such that three test cases pass and two test cases fail. Modify your applications if required.
+3. Add unit test files to your repository, commit the change and push the branch into GitHub.
+4. In GitHub, create a pull request to merge ‘unit-test’ branch with the master branch and complete the merge.
