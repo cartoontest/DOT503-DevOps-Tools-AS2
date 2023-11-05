@@ -14,8 +14,15 @@ conflict and push it into GitHub.
 Resolve the conflict and complete the merge.
 9. Commit your changes and push the master branch into GitHub.
 
-
+b) Implement Unit testing
 1. Create a branch named ‘unit-test’ and checkout the newly created branch.
 2. In your chosen Unit testing framework, write five test cases for your applications such that three test cases pass and two test cases fail. Modify your applications if required.
 3. Add unit test files to your repository, commit the change and push the branch into GitHub.
 4. In GitHub, create a pull request to merge ‘unit-test’ branch with the master branch and complete the merge.
+
+
+c) Implement Build automation
+1. In your chosen build automation tools create a script to compile and test your application as well as making a deployable package or executable for your application.
+2. Create a ‘Readme.txt’ file with instructions on how to run the build script.
+3. Add the build script and the Readme.txt file to your master branch. Commit the changes
+and push the changes into GitHub.
