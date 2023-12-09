@@ -1,7 +1,6 @@
 def calculate_rectangle_area(length, width):
     return length * width
 
-
 if __name__ == "__main__":
     try:
         length = float(input("Enter the length of the rectangle: "))
