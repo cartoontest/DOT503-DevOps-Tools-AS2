@@ -1,0 +1,24 @@
+Task Instructions
+
+In Assessment 2, you created an application, added unit tests to it, and wrote build scripts to
+automatically compile, build, test, and create deployable package/executable of the application. The
+source code along with the unit tests and build scripts are now available in GitHub. In this
+assessment you are required to perform the following tasks:
+
+a) Implement Continuous delivery using Jenkins
+1. Create a job named ‘DOT503’ in Jenkins to compile, build, test, and create deployable
+package/executable of your application from your GitHub repository created in
+Assessment 2.
+
+2. Reconfigure the Jenkins job ‘DOT503’ so that whenever any change is made to the
+master branch of your repository in GitHub, Jenkins shall automatically start the build
+process within two minutes of the update.
+
+3. From Jenkins Web Graphical User Interface (GUI), build the job ‘DOT503.’
+
+4. Fix the failed unit tests. Commit your changed to the master branch of your repository
+and push the changes into GitHub.
+
+5. Zip and submit the folder associated with the job ‘DOT503’ which can be found in
+Jenkins’ home directory. In Windows operating systems usually C:\Program Files
+(x86)\Jenkins\jobs is the Jenkins’ home directory

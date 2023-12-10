@@ -12,10 +12,10 @@ class TestRectangleArea(unittest.TestCase):
         self.assertEqual(calculate_rectangle_area(-2, -3), 6)
 
     def test_area_mixed_values(self):
-        self.assertEqual(calculate_rectangle_area(3, -4), 12)
+        self.assertEqual(calculate_rectangle_area(3, -4), -12)
 
     def test_area_float_values(self):
-        self.assertEqual(calculate_rectangle_area(3.5, 5.5), 15.75)
+        self.assertEqual(calculate_rectangle_area(3.5, 5.5), 19.25)
 
 if __name__ == "__main__":
     unittest.main()
